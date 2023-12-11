@@ -1,0 +1,76 @@
+#
+#   VizieR Astronomical Server vizier.cds.unistra.fr
+#    Date: 2023-09-25T19:33:06 [V7.32.5]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	protocol=ASU	
+#INFO	request_date=2023-09-25T19:33:06	
+#INFO	request_post=https://vizier.cds.unistra.fr//viz-bin/asu-tsv	
+#-oc.form=dec
+#-out.max=50
+#-order=I
+#-out.src=J/A+A/537/A146/tables
+#-nav=cat:J/A+A/537/A146&tab:{J/A+A/537/A146/tables}&key:source=J/A+A/537/A146/tables&HTTPPRM:&&-ref=VIZ6511e01f1bc984&-out.max=50&-out.form=HTML Table&-oc.form=sexa&-order=I&-out=Mini&-ignore=track=*&track=track&Rot=n&Line=1&-out=log(rhoc)&-out=logTc&-out=Xc&-out=Yc&-file=.&-meta.ucd=2&-meta=1&-meta.foot=1&-usenav=1&-bmark=POST&-out.src=J/A+A/537/A146/tables
+#-source=J/A+A/537/A146/tables
+#-out=Mini
+#Rot=n
+#Line=1
+#-out=log(rhoc)
+#-out=logTc
+#-out=Xc
+#-out=Yc
+#
+#INFO	contact=cds-question@unistra.fr	
+#INFO	version=7.32.5	
+#INFO	-out.max=50	
+
+#RESOURCE=yCat_35370146
+#Name: J/A+A/537/A146
+#Title: Stellar models with rotation. 0.8<M<120, Z=0.014 (Ekstrom+, 2012)
+#INFO	ivoid=ivo://cds.vizier/j/a+a/537/a146	
+#INFO	publisher=CDS	
+#INFO	creator=Ekstrom S.	
+#INFO	related_resource=bibcode:2012A&A...537A.146E	
+#INFO	landing_page=https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/537/A146	
+#INFO	publication_id=doi:10.26093/cds/vizier.35370146	
+#INFO	publication_date=2012-04-03	
+#INFO	curation_level=RESEARCH	
+#INFO	rights=https://cds.unistra.fr/vizier-org/licences_vizier.html	
+#Table	J_A_A_537_A146_tables:
+#Name: J/A+A/537/A146/tables
+#Title: Evolutionary tracks
+#Column	Mini	(F6.2)	Initial mass	[ucd=phys.mass]
+#Column	log(rhoc)	(F5.3)	Central density in log scale	[ucd=instr.scale]
+#Column	logTc	(F5.3)	Central temperature in log scale	[ucd=instr.scale]
+#Column	Xc	(F6.4)	H central abundance (mass fraction)	[ucd=phys.abund.Fe]
+#Column	Yc	(F6.4)	4He central abundance (mass fraction)	[ucd=phys.abund;em.wl.central]
+Mini;log(rhoc);logTc;Xc;Yc
+Msun;[g/cm3];[K]; ;
+------;-----;-----;------;------
+  0.80;1.898;7.061;0.7167;0.2691
+  0.90;1.903;7.098;0.7169;0.2688
+  1.00;1.910;7.130;0.7162;0.2694
+  1.10;1.923;7.161;0.7168;0.2687
+  1.25;1.933;7.199;0.7169;0.2687
+  1.35;1.937;7.226;0.7170;0.2686
+  1.50;1.934;7.261;0.7170;0.2686
+  1.70;1.913;7.298;0.7169;0.2687
+  2.00;1.864;7.336;0.7169;0.2688
+  2.50;1.768;7.374;0.7170;0.2686
+  3.00;1.673;7.400;0.7170;0.2687
+  4.00;1.515;7.433;0.7169;0.2688
+  5.00;1.395;7.457;0.7169;0.2688
+  7.00;1.215;7.489;0.7168;0.2689
+  9.00;1.090;7.511;0.7169;0.2688
+ 12.00;0.964;7.538;0.7169;0.2687
+ 15.00;0.872;7.557;0.7169;0.2688
+ 20.00;0.760;7.578;0.7169;0.2688
+ 25.00;0.680;7.592;0.7169;0.2688
+ 32.00;0.598;7.606;0.7170;0.2687
+ 40.00;0.529;7.617;0.7169;0.2688
+ 60.00;0.419;7.636;0.7169;0.2689
+ 85.00;0.335;7.651;0.7169;0.2688
+120.00;0.257;7.664;0.7170;0.2688
+

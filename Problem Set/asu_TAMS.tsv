@@ -1,0 +1,76 @@
+#
+#   VizieR Astronomical Server vizier.cds.unistra.fr
+#    Date: 2023-11-11T01:16:51 [V7.32.5]
+#   In case of problem, please report to:	cds-question@unistra.fr
+#
+#
+#Coosys	J2000:	eq_FK5 J2000
+#INFO	protocol=ASU	
+#INFO	request_date=2023-11-11T01:16:51	
+#INFO	request_post=https://vizier.cds.unistra.fr//viz-bin/asu-tsv	
+#-oc.form=dec
+#-out.max=50
+#-nav=cat:J/A+A/537/A146&tab:{J/A+A/537/A146/tables}&key:source=J/A+A/537/A146/tables&HTTPPRM:&
+#-source=J/A+A/537/A146/tables
+#-order=I
+#-out=Mini
+#track=track
+#Rot=n
+#-out=Line
+#Line=110
+#-out=Time
+#-out=logL
+#-out=logTe
+#
+#INFO	contact=cds-question@unistra.fr	
+#INFO	version=7.32.5	
+#INFO	-out.max=50	
+
+#RESOURCE=yCat_35370146
+#Name: J/A+A/537/A146
+#Title: Stellar models with rotation. 0.8<M<120, Z=0.014 (Ekstrom+, 2012)
+#INFO	ivoid=ivo://cds.vizier/j/a+a/537/a146	
+#INFO	publisher=CDS	
+#INFO	creator=Ekstrom S.	
+#INFO	related_resource=bibcode:2012A&A...537A.146E	
+#INFO	landing_page=https://cdsarc.cds.unistra.fr/viz-bin/cat/J/A+A/537/A146	
+#INFO	publication_id=doi:10.26093/cds/vizier.35370146	
+#INFO	publication_date=2012-04-03	
+#INFO	curation_level=RESEARCH	
+#INFO	rights=https://cds.unistra.fr/vizier-org/licences_vizier.html	
+#Table	J_A_A_537_A146_tables:
+#Name: J/A+A/537/A146/tables
+#Title: Evolutionary tracks
+#Column	Mini	(F6.2)	Initial mass	[ucd=phys.mass]
+#Column	Line	(I3)	[1/400] Number of selected point	[ucd=meta.id]
+#Column	Time	(E12.5)	Age	[ucd=time.age]
+#Column	logL	(F7.3)	Luminosity in log scale	[ucd=phys.luminosity]
+#Column	logTe	(F5.3)	Effective temperature in log scale	[ucd=phys.temperature.effective;instr.scale]
+Mini;Line;Time;logL;logTe
+Msun; ;yr;[Lsun];[K]
+------;---;------------;-------;-----
+  0.80;110; 2.15078e+10; -0.207;3.715
+  0.90;110; 1.34162e+10; -0.009;3.741
+  1.00;110; 8.49545e+09;  0.157;3.762
+  1.10;110; 5.46053e+09;  0.305;3.780
+  1.25;110; 4.22249e+09;  0.582;3.800
+  1.35;110; 3.13865e+09;  0.738;3.817
+  1.50;110; 2.23918e+09;  0.938;3.839
+  1.70;110; 1.64515e+09;  1.189;3.864
+  2.00;110; 1.01704e+09;  1.484;3.912
+  2.50;110; 5.42325e+08;  1.883;3.978
+  3.00;110; 3.23213e+08;  2.198;4.036
+  4.00;110; 1.53435e+08;  2.686;4.123
+  5.00;110; 8.89959e+07;  3.052;4.188
+  7.00;110; 4.21159e+07;  3.583;4.279
+  9.00;110; 2.65086e+07;  3.965;4.338
+ 12.00;110; 1.54981e+07;  4.366;4.396
+ 15.00;110; 1.11333e+07;  4.654;4.431
+ 20.00;110; 7.81899e+06;  5.001;4.467
+ 25.00;110; 6.37078e+06;  5.235;4.480
+ 32.00;110; 5.25168e+06;  5.460;4.476
+ 40.00;110; 4.47708e+06;  5.642;4.452
+ 60.00;110; 3.55952e+06;  5.910;4.412
+ 85.00;110; 3.04802e+06;  6.146;4.517
+120.00;110; 2.69160e+06;  6.348;4.433
+
